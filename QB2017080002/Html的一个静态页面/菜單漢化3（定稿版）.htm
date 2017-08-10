@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<style type="text/css">
+div
+{
+width:520px; height:1000px;margin:0 auto;
+color: #ffffff;
+}
+a{color: #ffffff;}
+td{ width:200px; height:20px;}
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11{width:505px;padding:7px;border:1px solid red;}
+</style>
+<script type="text/javascript">  
+//===========================点击展开关闭效果====================================  
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){  
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;  
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;  
+var openTip = oOpenTip || "";  
+var shutTip = oShutTip || "";  
+if(targetObj.style.display!="none"){  
+   if(shutAble) return;  
+   targetObj.style.display="none";  
+   if(openTip  &&  shutTip){  
+    sourceObj.innerHTML = shutTip;   
+   }  
+} else {  
+   targetObj.style.display="block";  
+   if(openTip  &&  shutTip){  
+    sourceObj.innerHTML = openTip;   
+   }  
+}  
+}  
+</script>  
+<title>D3SKING菜單漢化</title>  
+</head>  
+<div>
+<body>
+<p>
+<img src="images/1.png" width="520" height="150"></p> 
+<div style="background:url(images/D3SKING_Wallpaper_3_Samsung_J7.png) center center;background-size: 100% 100%;">
+<p><a href="###" onclick="openShutManager(this,'box1')">个人选项 Self</a><</p> 
+<p><table border="0" cellpadding="0" cellspacing="0" id="box1" style="display:none;">
+<tr>
+		<td>上帝模式</td>
+		<td>God Mode</td>
+	</tr>
+	<tr>
+		<td>不摔倒模式</td>
+		<td>No Ragdoll</td>
+	</tr>
+	<tr>
+		<td>无视犯罪</td>
+		<td>Never Wanted</td>
+	</tr>
+	<tr>
+		<td>超级跳</td>
+		<td>Super Jump</td>
+	</tr>
+	<tr>
+		<td>隐身模式</td>
+		<td>Ghost Mode</td>
+	</tr>
+	<tr>
+		<td>关闭雷达1</td>
+		<td>Off The Radar(1)</td>
+	</tr>
+	<tr>
+		<td>关闭雷达2</td>
+		<td>Off The Radar(2)</td>
+	</tr>
+	<tr>
+		<td>玩家不能把你拉下车</td>
+		<td>Never Dragged Out From Vehicles</td>
+	</tr>
+	<tr>
+		<td>超人</td>
+		<td>SuperMan</td>
+	</tr>
+	<tr>
+		<td>空中行走</td>
+		<td>Walk In Air</td>
+	</tr>
+	<tr>
+		<td>自杀</td>
+		<td>Suicide</td>
+	</tr>
+	<tr>
+		<td>玩家变小</td>
+		<td>Tiny Player</td>
+	</tr>		
+	<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box1-1')">点击输入名称</td>
+		<td style="border-bottom: 1px solid #000">Input Name< </td>
+	</tr>
+	</table>
+<p><table border="1" id="box1-1" style="display:none">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td onclick="openShutManager(this,'boxs1')">>改变ID的下一级1</td>
+		<td>Input Name</td>
+	</tr>
+	<tr>
+		<td>改变名称</td>
+		<td>Change Name</td>
+	</tr>
+</table>
+<p><table border="1" id="boxs1" style="display:none">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td onclick="openShutManager(this,'boxs1-1')">>改变ID的下一级2</td>
+		<td>Input Name</td>
+	</tr>
+	<tr>
+		<td>改变名称</td>
+		<td>Change Name</td>
+	</tr>
+</table>
+<p><table border="1" id="boxs2" style="display:none">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td onclick="openShutManager(this,'boxs1-1-1')">>改变ID的下一级3</td>
+		<td>Input Name</td>
+	</tr>
+	<tr>
+		<td>改变名称</td>
+		<td>Change Name</td>
+	</tr>
+</table>
+<p><table border="1" id="boxs3" style="display:none">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td onclick="openShutManager(this,'boxs1-1-1-1')">>点击输入名称 4级</td>
+		<td>Input Name</td>
+	</tr>
+	<tr>
+		<td>改变名称</td>
+		<td>Change Name</td>
+	</tr>
+</table>
+<p><table border="1" id="boxs4" style="display:none">
+	<!-- MSTableType="layout" -->
+	<tr>
+		<td>点击输入名称 5级</td>
+		<td>Input Name</td>
+	</tr>
+	<tr>
+		<td>改变名称</td>
+		<td>Change Name</td>
+	</tr>
+</table>
+
+<p><a href="###" onclick="openShutManager(this,'box2')">线上玩家 Online Players</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box3')">线上所有玩家 All Online Players</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box4')">载具选项 Vehicles</a><</p> 
+<p><table border="0" cellspacing="0" ellpadding="0" id="box4" style="display:none">
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1')">刷车</td>
+		<td style="border-bottom: 1px solid #000">Spawner<</td>
+	</tr>
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-2')">移动定位</td>
+		<td style="border-bottom: 1px solid #000">Mobile LSC<</td>
+	</tr>
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-3')">倍增器</td>
+		<td style="border-bottom: 1px solid #000">Multipliers<</td>
+	</tr>
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-4')">车辆的能力</td>
+		<td style="border-bottom: 1px solid #000">Vehicle Abilities<</td>
+	</tr>
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-5')">车辆武器</td>
+		<td style="border-bottom: 1px solid #000">Vehicle Weapons<</td>
+	</tr>
+<tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-6')">车门</td>
+		<td style="border-bottom: 1px solid #000">Vehicle Doors<</td>
+	</tr>
+<p><table border="0" id="box4-1" style="display:none">
+	<!-- MSTableType="layout" -->	
+	<tr>
+		<td>传送入</td>
+		<td>Teleport In</td>
+	</tr>
+	<tr>
+		<td>最大升级</td>
+		<td>Max Upgrade</td>
+	</tr>
+    <tr>
+		<td>高端分流</td>
+		<td>High-End Bypass</td>
+	</tr>
+    <tr>
+		<td>自定义输入</td>
+		<td>Custom Input</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">超跑</td>
+		<td style="border-bottom: 1px solid #000">Super<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">运动型跑车</td>
+		<td style="border-bottom: 1px solid #000">Sports<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">运动型经典跑车</td>
+		<td style="border-bottom: 1px solid #000">Sports Classic<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">跑车</td>
+		<td style="border-bottom: 1px solid #000">Coupes<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">合约车</td>
+		<td style="border-bottom: 1px solid #000">Compacts<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">轿车</td>
+		<td style="border-bottom: 1px solid #000">Sedans<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">肌肉车</td>
+		<td style="border-bottom: 1px solid #000">Muscle<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">公共车辆</td>
+		<td style="border-bottom: 1px solid #000">Utility<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">运动型多用途车</td>
+		<td style="border-bottom: 1px solid #000">SUV<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">货车</td>
+		<td style="border-bottom: 1px solid #000">Vans<</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">越野车</td>
+		<td style="border-bottom: 1px solid #000">Offroad <</td>
+	</tr>
+    <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">商务车</td>
+		<td style="border-bottom: 1px solid #000">Commercial <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">军用车</td>
+		<td style="border-bottom: 1px solid #000">Military <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">摩托车</td>
+		<td style="border-bottom: 1px solid #000">Motorcycles <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">紧急车</td>
+		<td style="border-bottom: 1px solid #000">Emergency <</td>
+	</tr>	
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">服务车</td>
+		<td style="border-bottom: 1px solid #000">Service <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">工业车</td>
+		<td style="border-bottom: 1px solid #000">Industrial <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">飞机</td>
+		<td style="border-bottom: 1px solid #000">Planes <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">直升机</td>
+		<td style="border-bottom: 1px solid #000">Helicopters <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">船</td>
+		<td style="border-bottom: 1px solid #000">Boats <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">自行车</td>
+		<td style="border-bottom: 1px solid #000">Cycles <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">拖车</td>
+		<td style="border-bottom: 1px solid #000">Trailer <</td>
+	</tr>
+   <tr style="border-bottom: 1px solid #000">
+		<td style="border-bottom: 1px solid #000" onclick="openShutManager(this,'box4-1-1')">火车</td>
+		<td style="border-bottom: 1px solid #000">Trains <</td>
+	</tr> 	
+</table>
+
+<p><a href="###" onclick="openShutManager(this,'box5')">武器选项 weapons</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box6')">加载MOD Spawner</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box7')">传送选项 Teleport</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box8')">世界 World</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box9')">杂项 Misc</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box10')">刷等级、刷隐形钱、解锁 Recovery</a><</p> 
+<p><a href="###" onclick="openShutManager(this,'box11')">设置 Settings</a><</p> 
+</p>
+</div>
+</div>
