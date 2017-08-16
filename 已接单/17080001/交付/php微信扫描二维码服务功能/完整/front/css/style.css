@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* 登录 */
+.loginbg {
+	background: url(../APP/images/590f33d3c2793.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-background-attachment: fixed;
+	background-attachment: fixed;
+}
+.loginimg {
+	background: url('../images/logo_fuwu.png') no-repeat 50% 50%;
+    width: 19rem;
+    height: 3.5rem;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 7rem auto 3.6rem;
+}
+
+.zctk {
+    width: 27rem;
+    margin: 2rem auto;
+}
+.zctk li {
+	padding: 1rem 0;
+	font-size: 1.4rem;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+.zctk li>input {
+	width: 98%;
+	height: 3.2rem;
+	padding-left: 2rem;
+	font-size: 1.4rem;
+	border-radius: .4rem;
+	-webkit-box-shadow: ;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset;
+	color: #fff;
+}
+.zctk li span {
+	position: absolute;
+	right: .7rem;
+	top: 1.3rem;
+	display: inline-block;
+	width: 8rem;
+	line-height: 2.4rem;
+	color: #fff;
+}
+.zctk li span input {
+	font-size: 1.2rem;
+	line-height: 2.4rem;
+	padding: 0 1rem;
+	display: inline-block;
+	background-color: #c71b29;
+	color: #fff;
+	border-radius: .4rem;
+	width: 100%;
+}
+.telerror{
+	font-size: 1rem;
+	margin-top: -.6rem;
+	padding-left: 1rem;
+	color: #c71b29;
+}
+.tjbtna {
+	padding-top: 5rem;
+}
+.tjbtna input {
+	display: inline-block;
+	text-align: center;
+	line-height: 3rem;
+	background-color: #c71b29;
+	color: #fff;
+	width: 100%;
+	font-size: 1.4rem;
+	border-radius: .4rem;
+}
+.tjbtnb {
+	padding-top: 3rem;
+	padding-left:37%;
+}
+.tjbtnb input {
+	display: inline-block;
+	text-align: center;
+	line-height: 3rem;
+	color: #c71b29;
+	width: 40%;
+	font-size: 1.4rem;
+
+	border-radius: .4rem;
+
+	background-color:#FFF;
+}
+.zctk li>input[type=tel]{
+	background: url('../images/icon_ylfw_phone.png') no-repeat .15rem center;
+	background-color: rgba(0, 0, 0, .2);
+	-webkit-background-size: 1.8rem 1.8rem;
+	background-size: 1.8rem 1.8rem;
+}
+.zctk li>input[name=yzm]{
+	background: url('../images/icon_ylfw_yzm.png') no-repeat .3rem center;
+	-webkit-background-size: 1.5rem 1.5rem;
+	background-size: 1.5rem 1.5rem;
+	background-color: rgba(0, 0, 0, .2);
+}
+.zctk li>input::-webkit-input-placeholder{
+	color: rgba(255, 255, 255, .8);
+}
+.telerror{
+	opacity: 0;
+}
+.starttime{
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 1.3rem;
+	color: #c71b29;
+}
+.starttime span{
+	line-height: 1;
+	border-bottom: .1rem solid #c71b29;
+}
+.endtime{
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 1.3rem;
+	color: #c71b29;
+}
+.endtime span{
+	line-height: 1;
+	border-bottom: .1rem solid #c71b29;
+}
+
+.selected{
+    border:2px solid #fff;
+}
+
+
+
+.msg_alert{
+    
+    position: fixed;
+    top: 40%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    z-index:10;
+    background-color: #fff;
+    border-radius: 5px;
+    display:none;
+}
+
+.msg_alert .msg{
+    
+    height: 3rem;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 3% 3%;
+
+}
+.btn{
+    height:3rem;
+}
+.confirm,.cancel{
+    
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+.confirm{
+    background-color: #269abc;
+    color:#fff;
+}
+
+.mordal{
+    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #000;
+    height: 100%;
+    z-index: 9;
+    opacity: 0.6;
+    left:0px;
+    display:none
+
+}

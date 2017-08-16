@@ -1,0 +1,82 @@
+		body{
+			background: #222;
+			font-family: "Work Sans", sans-serif;
+			font-weight: 300;
+		}
+		
+		
+		#head	{
+		font: "Cantina", sans-serif, Work Sans;
+		font-weight: 300;
+		font-size: 35px;
+		color: #222;
+		float: left;
+		margin: 20px 10px 10px 20px;
+		letter-spacing: 4px;
+		}
+		
+		
+		header	{
+			background-color: #ffb3b3;
+			width:100%;
+			margin: 10px;
+			height: 100px;
+			padding: 10px;
+		}
+		
+		
+   		 
+		nav	{
+		font-size: 15px;
+		margin-right: 100px;
+		}
+		
+		nav ul	{
+		width:100%;
+		list-style: none;
+		}
+		
+		nav li	{
+		display: inline-block;
+		margin-left: 50px;
+		padding-top: 60px;
+		float: right;
+		}
+		
+		li a:hover {
+ 		   background-color: #222;
+		}
+		
+		
+		article	{
+		margin-top: 40px;
+		padding: 10px;
+		color: white;
+		font: "Work Sans", sans-serif;
+		font-size: 20px;
+		}
+		
+		
+		div.gallery {
+			margin-top: 20px;
+   			margin: 5px;
+   			float: left;
+   			width: 300px;
+   			height: 200px;
+		}
+
+		div.gallery img {
+  			width: 100%;
+			height: auto;
+		}
+		
+		#video	{
+		margin-left: 30px;
+		}
+		
+		
+		
+		footer	{
+		text-align: center;
+		color: white;
+		}
